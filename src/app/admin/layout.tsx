@@ -1,6 +1,6 @@
 import { Nav, NavLink } from "@/components/Nav"
 
-export const dynamic = "force-dynamic"
+export const dynamic = "force-dynamic"  //force next.js don't cache page
 
 export default function AdminLayout({
     children,
